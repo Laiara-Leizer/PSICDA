@@ -1,0 +1,182 @@
+/* PARTE DA APRESENTAÇÃO */
+
+/* GERAL */
+.gochi-hand-regular {
+    font-family: "Gochi Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .baloo-2 {
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  /* GERAL */
+  
+  /* HEADER */
+  
+  header {
+    width: 100vw;
+    display: flex;
+    font-weight: 700;
+  }
+  .logo {
+    margin-top: 10vh;
+  }
+  .log {
+    border: 1px solid #000;
+    width: 7.2vw;
+    height: 5vh;
+    display: flex;
+    font-size: 2.8vh;
+    margin-left: 2.1vw;
+    margin-right: 11vw;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    border-radius: 0.5vw;
+    place-content: center;
+    align-items: center;
+  }
+  
+  .head {
+    color: #000;
+    font-size: 1.5vw;
+    display: flex;
+    margin-left: 3vw;
+    margin-top: 10vh;
+  }
+  /* HEADER */
+  
+  /* MAIN */
+  
+  .containerhome {
+    background: aqua;
+    height: 45vh;
+    text-align: center;
+  }
+  
+  .main {
+    background: blueviolet;
+    width: 100vw;
+    height: 70vh;
+  }
+  
+  .titulo {
+    font-size: 8vw;
+    font-family: "Gochi Hand", cursive;
+    font-weight: 100;
+  }
+  
+  .text {
+    margin-left: 15vw;
+    margin-top: 2vh;
+  }
+  
+  .homeimage {
+    color: #000;
+    display: flex;
+    width: 25vw;
+    float: right;
+    margin-right: 20vw;
+  }
+  
+  .home {
+    display: flex;
+    max-width: 25vw;
+  }
+  
+  .sobre {
+    font-family: "Baloo 2";
+    margin-top: 2vh;
+    font-size: 2.5vw;
+    width: 25vw;
+  }
+  
+  .p {
+    display: inline-flex;
+    font-family: "Baloo 2";
+    width: 26vw;
+    font-size: 1.2vw;
+    text-align: justify;
+    margin-top: 7vh;
+  }
+  
+  .baixo {
+    color: #000;
+  }
+  
+  /* PARTIDA */
+  
+  .main {
+    background: antiquewhite;
+    width: 100vw;
+    height: 85vh;
+    /* display: flex; */
+  }
+  
+  .text {
+    margin-left: 15vw;
+    margin-top: 2vh;
+  }
+  
+  .partida {
+    display: flex;
+    /* margin-left: 15vw; */
+    margin-top: 4vh;
+    width: 25vw;
+  }
+  
+  .frase {
+    background-color: #332623;
+    font-family: "Baloo 2", sans-serif;
+    color: #fff;
+    width: 16vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5vw;
+  }
+  
+  /* PARTIDA */
+  
+  /* MAIN */
+
+  
+
+
+
+
+
+  /* PARTE COM BOOTSTRAP */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* AA */
