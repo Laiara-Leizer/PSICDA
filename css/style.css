@@ -127,6 +127,7 @@
     width: 100vw;
     height: 85vh;
     /* display: flex; */
+    margin-bottom: 10vh;
   }
   
   .text {
