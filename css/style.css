@@ -99,7 +99,7 @@
 
     
   .main {
-    background: antiquewhite;
+    /* background: antiquewhite; */
     width: 100vw;
     height: 85vh;
     /* display: flex; */
@@ -149,7 +149,7 @@
     display: inline-flex;
     font-family: "Baloo 2";
     width: 26vw;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     text-align: justify;
     margin-top: 7vh;
   }
@@ -191,3 +191,47 @@
   /* PARTE COM BOOTSTRAP */
 
   /* AA */
+
+
+
+
+
+
+
+
+
+  /* CONTAINERS DE CADA JOGO */
+
+
+
+.background-card{
+  /* background-color: #000; */
+width: 30vw;
+border-radius: 10%;
+  
+}
+  .card{
+    margin: 5vh;
+    border: 2px #C3C9FF solid;
+    border-radius: 10%;
+    outline: none;
+    height: 40vw;
+    background-color: #E2E5FF;
+  }
+  .card-img-top{
+    border-radius: 10%;
+    width: 20vw;
+    display: flex;
+    place-self: center;
+    margin-top: 2vh;
+  }
+  .card-title{
+    margin-top: 1vh;
+    display:grid;
+    text-align: center;
+  }
+  .card-text{
+    color: #000;
+    margin-top: 1vh;
+
+  }
