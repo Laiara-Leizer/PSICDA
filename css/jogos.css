@@ -1,0 +1,211 @@
+/* JOGO 01 */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+/* GERAL */
+.gochi-hand-regular {
+    font-family: "Gochi Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .baloo-2 {
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  /* GERAL */
+  
+  /* HEADER */
+  
+  header {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    font-weight: 700;
+    /* background-color: #dac8b3; */
+  }
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 3vw;
+    margin-right: 7vw;
+}
+  
+  .head {
+    color: #000;
+    font-size: 1.5vw;
+    margin-left: 3vw;
+    display: inline-flex;
+    align-items: center;
+}
+.heade{
+    font-family: "Raleway";
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+}
+#input-flex {
+    width: 20vw;
+    height: 5vh;
+    outline: none;
+    border: 2px #000 solid;
+    border-radius: 10px;
+    background-color: #9ACEFF;
+    margin-left: 0.3vw;
+
+}
+
+#input-flex::placeholder{
+    /* border-radius: 10%; */
+    color: #000000;
+    font-family: "Raleway";
+    font-size: 1rem;
+    display: flex;
+    
+}
+
+
+#pesquisar{
+    margin-left: 22.5vw;
+    height: 5vh;
+
+}
+
+  /* HEADER */
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTAINER PRINCIPAL */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.memory-game {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+}
+.memory-card {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+.memory-card.flip {
+    transform: rotateY(180deg);
+}
+.memory-card .front-face, .memory-card .back-face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.front-face {
+    background-color: #fff;
+    color: #333;
+    transform: rotateY(180deg);
+    border: 2px solid #ccc;
+}
+.back-face {
+    background-color: #2e3d49;
+    color: white;
+} */
+
+
+
+
+
+
+
+
+
+/* JOGO 02 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
