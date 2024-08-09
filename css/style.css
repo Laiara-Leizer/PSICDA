@@ -32,34 +32,61 @@
   
   header {
     width: 100vw;
+    height: 15vh;
     display: flex;
     font-weight: 700;
+    /* background-color: #dac8b3; */
   }
   .logo {
-    margin-top: 10vh;
-  }
-  .log {
-    border: 1px solid #000;
-    width: 7.2vw;
-    height: 5vh;
-    display: flex;
-    font-size: 2.8vh;
-    margin-left: 2.1vw;
-    margin-right: 11vw;
-    font-weight: 700;
-    font-family: "Raleway", sans-serif;
-    border-radius: 0.5vw;
-    place-content: center;
+    display: inline-flex;
     align-items: center;
-  }
+    margin-left: 3vw;
+    margin-right: 7vw;
+}
   
   .head {
     color: #000;
     font-size: 1.5vw;
-    display: flex;
     margin-left: 3vw;
-    margin-top: 10vh;
-  }
+    display: inline-flex;
+    align-items: center;
+}
+.heade{
+    font-family: "Raleway";
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+}
+#input-flex {
+    width: 20vw;
+    height: 5vh;
+    outline: none;
+    border: 2px #000 solid;
+    border-radius: 10px;
+    background-color: #9ACEFF;
+    margin-left: 0.3vw;
+
+}
+
+#input-flex::placeholder{
+    /* border-radius: 10%; */
+    color: #000000;
+    font-family: "Raleway";
+    font-size: 1rem;
+    display: flex;
+    
+}
+
+
+#pesquisar{
+    margin-left: 20vw;
+    height: 5vh;
+
+}
+
   /* HEADER */
   
   /* MAIN */
@@ -69,13 +96,24 @@
     height: 45vh;
     text-align: center;
   }
-  
+
+    
   .main {
+    background: antiquewhite;
+    width: 100vw;
+    height: 85vh;
+    /* display: flex; */
+    margin-bottom: 10vh;
+  }
+
+
+  
+  /* .main {
     background: blueviolet;
     width: 100vw;
     height: 70vh;
   }
-  
+   */
   .titulo {
     font-size: 8vw;
     font-family: "Gochi Hand", cursive;
@@ -121,14 +159,6 @@
   }
   
   /* PARTIDA */
-  
-  .main {
-    background: antiquewhite;
-    width: 100vw;
-    height: 85vh;
-    /* display: flex; */
-    margin-bottom: 10vh;
-  }
   
   .text {
     margin-left: 15vw;

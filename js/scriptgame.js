@@ -1,4 +1,4 @@
-const cards = document.querySelectorAll('.memory-card');
+const cards = document.querySelectorAll('.card');
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
@@ -37,7 +37,7 @@ function unflipCards() {
         firstCard.classList.remove('flip');
         secondCard.classList.remove('flip');
         resetBoard();
-    }, 1500);
+    }, 900);
 }
 
 // Função para reiniciar o tabuleiro

@@ -77,8 +77,6 @@
 
 
 
-
-
 /* CONTAINER PRINCIPAL */
 
 .main{
@@ -94,10 +92,26 @@
 
 
 }
-.jogo-da-memoria {
+
+
+
+
+
+
+.jogo-da-memoria1 {
     display: grid;
     grid-template-columns: repeat(4, 100px);
     grid-gap: 10px;
+}
+.jogo-da-memoria {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-gap: 10px;
+}
+.jogo-da-memoria0 {
+  display: grid;
+  grid-template-columns: repeat(10, 100px);
+  grid-gap: 10px;
 }
 .card {
     width: 100px;
