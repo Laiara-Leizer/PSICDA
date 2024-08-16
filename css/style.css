@@ -25,6 +25,8 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
+    color: #000;
+    background-color: #ECFFFF;
   }
   /* GERAL */
   
@@ -103,7 +105,7 @@
     width: 100vw;
     height: 85vh;
     /* display: flex; */
-    margin-bottom: 10vh;
+    /* margin-bottom: 10vh; */
   }
 
 
@@ -203,9 +205,8 @@
   /* CONTAINERS DE CADA JOGO */
 
 
-
-.background-card{
-  /* background-color: #000; */
+/* background-color: #000; */
+/* .background-card{
 width: 30vw;
 border-radius: 10%;
   
@@ -234,4 +235,65 @@ border-radius: 10%;
     color: #000;
     margin-top: 1vh;
 
-  }
+  } */
+
+  .background-card {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.card {
+    margin: 5vh;
+    border: 4px #C3C9FF solid;
+    border-radius: 10%;
+    outline: none;
+    height: 100%;
+    background-color: #E2E5FF;
+}
+
+.card-img-top {
+    border-radius: 10%;
+    width: 100%;
+    display: flex;
+    place-self: center;
+    margin-top: 2vh;
+}
+
+.card-title {
+    margin-top: 1vh;
+    display: grid;
+    text-align: center;
+    text-decoration: none;
+}
+.card-title1 {
+  margin-top: 1vh;
+  display: grid;
+  text-align: center;
+}
+.card-text {
+    color: #000;
+    margin-top: 1vh;
+}
+.card-body{
+  height: 45vh;
+  border-radius: 0 0 21% 21%;
+
+}
+
+
+#jogotop{
+  margin-top: 1vh;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  font-weight:900;
+  font-size: 4vw;
+  color: #000;
+  text-decoration: none;
+}
+.jogotopp{
+  font-family: "Raleway";
+  color: #000;
+  text-decoration: none;
+  height: 7vh;
+}
