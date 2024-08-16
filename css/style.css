@@ -124,7 +124,7 @@
   
   .text {
     margin-left: 15vw;
-    margin-top: 2vh;
+    /* margin-top: 2vh; */
   }
   
   .homeimage {
@@ -162,10 +162,7 @@
   
   /* PARTIDA */
   
-  .text {
-    margin-left: 15vw;
-    margin-top: 2vh;
-  }
+ 
   
   .partida {
     display: flex;
@@ -264,25 +261,31 @@ border-radius: 10%;
     display: grid;
     text-align: center;
     text-decoration: none;
+    background-color: #E2E5FF;
+
 }
 .card-title1 {
   margin-top: 1vh;
   display: grid;
   text-align: center;
+  background-color: #E2E5FF;
+
 }
 .card-text {
     color: #000;
     margin-top: 1vh;
+    background-color: #E2E5FF;
+
 }
 .card-body{
   height: 45vh;
   border-radius: 0 0 21% 21%;
-
+  background-color: #E2E5FF;
 }
 
 
 #jogotop{
-  margin-top: 1vh;
+  /* margin-top: 1vh; */
   display: grid;
   text-align: center;
   align-items: center;
