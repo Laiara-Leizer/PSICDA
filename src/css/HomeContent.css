@@ -1,0 +1,51 @@
+/* HomeContent.css */
+
+.containerhome {
+    background: aqua;
+    height: 45vh;
+    text-align: center;
+  }
+  
+  .main {
+    width: 100vw;
+    height: 85vh;
+  }
+  
+  .titulo {
+    font-size: 8vw;
+    font-family: "Gochi Hand", cursive;
+    font-weight: 100;
+  }
+  
+  .text {
+    margin-left: 15vw;
+  }
+  
+  .homeimage {
+    color: #000;
+    display: flex;
+    width: 25vw;
+    float: right;
+    margin-right: 20vw;
+  }
+  
+  .home {
+    display: flex;
+    max-width: 25vw;
+  }
+  
+  .sobre {
+    font-family: "Baloo 2";
+    margin-top: 2vh;
+    font-size: 2.5vw;
+    width: 25vw;
+  }
+  
+  .p {
+    display: inline-flex;
+    font-family: "Baloo 2";
+    width: 26vw;
+    font-size: 1.3vw;
+    text-align: justify;
+    margin-top: 7vh;
+  }

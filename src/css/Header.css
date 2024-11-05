@@ -1,0 +1,59 @@
+/* General Styling */
+body {
+    background-color: #ECFFFF;
+  }
+  
+  .header {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    padding: 0 3vw;
+    background-color: #ECFFFF;
+  }
+  
+  .logo {
+    height: 8vh;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 2vw;
+    font-size: 1.5vw;
+  }
+  
+  .nav-link {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.7vw;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 10vw;
+}
+  
+  .search-input {
+    width: 20vw;
+    height: 5vh;
+    outline: none;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #FFB296;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.7vw;
+    padding-left: 0.5vw;
+}
+  
+  .search-input::placeholder {
+    color: #000;
+    opacity: 1;
+  }
+  
