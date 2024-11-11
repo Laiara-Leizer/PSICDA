@@ -1,27 +1,26 @@
 import React from 'react';
-import Header from './Header';
-import MainContent from './MainContent';
-import GamesSection from './GamesSection';
-import CardsSection from './CardsSection';
+import Header from './components/Header';
+import MainContent from './components/MainContent';
+// import CardsSection from './components/CardsSection';
 
 import '../css/HomeContent.css';
 import '../css/Games.css';
 
 
-const Home = () => {
+const indexHome = () => {
     return (
         <div>
             <Header />
             <MainContent />
             {/* <GamesSection /> */}
-            <CardsSection />
+            
+            {/* <CardsSection /> */}
 
-          
         </div>
     );
 }
 
-export default Home;
+export default indexHome;
 
 
 

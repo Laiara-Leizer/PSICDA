@@ -1,16 +1,15 @@
 import React from 'react';
-import CardsSection from './CardsSection';
-
+import Pessoa_Logo from '../img/containerhome.png';
+import styles from './styles/StyleMainContent';
 
 const MainContent = () => {
     return (
-        <main className="main">
+        <main className="main" style={styles.general}>
 
-
-              <div className="text">
+              <div className="text" style={styles.text}>
                 <h1 className="titulo">Escola</h1>
                 <div className="homeimage">
-                    <img className="home" src="./img/containerhome.png" alt="home" />
+                    <img className="Pessoa_logo" src={Pessoa_Logo} alt="home" />
                 </div>
                 <h2 className="sobre">Sobre o site</h2>
                 <p className="p">
@@ -19,13 +18,10 @@ const MainContent = () => {
                 <div className="partida">
                     <a href="./memoriafacil.html" className="frase">Iniciar partida?</a>
                 </div>
+                
             </div>
         </main>
     );
 }
 
 export default MainContent;
-
-
-
-

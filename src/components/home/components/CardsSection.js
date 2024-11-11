@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ imageSrc, title, link, description }) => {
+const CardsSection = ({ imageSrc, title, link, description }) => {
     return (
         <div className="col">
             <section className="background-card">
@@ -16,4 +16,4 @@ const Card = ({ imageSrc, title, link, description }) => {
     );
 }
 
-export default Card;
+export default CardsSection;

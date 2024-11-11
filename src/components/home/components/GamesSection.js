@@ -11,3 +11,5 @@ const GamesSection = () => {
 }
 
 export default GamesSection;
+
+//não sei se to usando

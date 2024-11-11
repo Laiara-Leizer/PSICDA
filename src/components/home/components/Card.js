@@ -1,10 +1,9 @@
 import React from 'react';
-import Card from './Card';
 import GameOneLog from '../img/Jogo 01.jpg';
 import GameTwoLog from '../img/Jogo 02.jpg';
 import GameThreeLog from '../img/Jogo 03.png';
 
-const CardsSection = () => {
+const Card = () => {
     return (
         <div className="row row-cols-1 row-cols-md-3 g-4">
             <Card 
@@ -29,4 +28,4 @@ const CardsSection = () => {
     );
 }
 
-export default CardsSection;
+export default Card;

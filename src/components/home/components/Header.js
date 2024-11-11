@@ -1,7 +1,8 @@
 import React from 'react';
 import Logo from '../img/Logo PSICDA.png';
-import '../css/Home.css';
-import '../css/Header.css'; // Updated path to match the filename
+// import '../css/Home.css';
+import '../components/styles/HomeStyleComponent'; // Updated path to match the filename
+import '../components/styles/StyleHeaderComponent'; // Updated path to match the filename
 
 const Header = () => {
     return (

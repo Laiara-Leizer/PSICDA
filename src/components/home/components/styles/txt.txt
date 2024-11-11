@@ -1,0 +1,16 @@
+export default GeralComponent;
+export default StyleHeaderContent;
+export default GeralComponent;
+export default StyleMainContent;
+
+
+
+
+export default Card;
+export default CardsSection;
+export default GamesSection;
+export default Header;
+export default MainContent;
+
+
+
