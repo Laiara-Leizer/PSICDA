@@ -13,3 +13,10 @@ git push -u origin main
 git remote add origin https://github.com/Laiara13/PSCIDA.git
 git branch -M main
 git push -u origin main
+
+
+
+
+
+
+Fazer todos os primeiros htmls ficarem em um só e só aparecerem quando for chamado uma função.

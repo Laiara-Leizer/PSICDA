@@ -31,17 +31,12 @@
     padding: 0;
     margin: 0;
   }
-  body{
-    /* backface-visibility: visible; */
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
+
   /* GERAL */
   
   /* HEADER */
   
-  header {
+.header {
     width: 98vw;
     height: 15vh;
     display: flex;
@@ -49,7 +44,7 @@
     /* background-color: #dac8b3; */
     position: relative;
   }
-  
+
 .title{
     width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
@@ -158,15 +153,25 @@
 /* JOGO 02 */
 
 
+body {
+  background-size: 110%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 
 
+.headera {
+  display: flex;
+  font-weight: 700;
+  position: fixed;
+  margin-top: 72vh;
+}
 
-
-
-
-
-
-
-
-
-
+.jogotopp {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  margin-left: 3vw;
+  margin-bottom: 1vw;
+  text-decoration: none;
+  color: #000;
+}
