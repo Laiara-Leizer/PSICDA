@@ -1,0 +1,144 @@
+
+
+
+/* Base styles */
+* {
+
+  }
+  
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  /* Header styles */
+  header {
+    padding: 1rem;
+  }
+  
+  .logo {
+    max-width: 150px;
+    margin: 0 auto 1rem;
+  }
+  
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin: 0.5rem 0;
+  }
+  
+  /* Main content styles */
+  .main {
+    padding: 2rem 1rem;
+  }
+  
+  .titulo {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .homeimage {
+    float: none;
+    margin: 2rem auto;
+    max-width: 100%;
+  }
+  
+  .home {
+    max-width: 100%;
+  }
+  
+  .sobre {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  
+  .p {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .partida {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .frase {
+    width: auto;
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Card styles */
+  .background-card {
+    width: 100%;
+  }
+  
+  .card {
+    margin: 1rem 0;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (min-width: 768px) {
+    /* Tablet styles */
+    .logo {
+      margin: 0;
+    }
+  
+    .navbar-nav {
+      flex-direction: row;
+    }
+  
+    .nav-item {
+      margin: 0 1rem;
+    }
+  
+    .titulo {
+      font-size: 3.5rem;
+    }
+  
+    .homeimage {
+      float: right;
+      margin-right: 2rem;
+      max-width: 40%;
+    }
+  
+    .sobre {
+      font-size: 2rem;
+    }
+  
+    .p {
+      font-size: 1.1rem;
+    }
+  
+    .card-body {
+      height: auto;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    /* Laptop styles */
+    .titulo {
+      font-size: 4.5rem;
+    }
+  
+    .homeimage {
+      max-width: 30%;
+    }
+  
+    .sobre {
+      font-size: 2.5rem;
+    }
+  
+    .p {
+      font-size: 1.2rem;
+    }
+  
+    .frase {
+      font-size: 1.2rem;
+    }
+  }
+  
+  
