@@ -1,459 +1,271 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* PARTE DA APRESENTAÇÃO */
-
-/* GERAL */
-.gochi-hand-regular {
-  font-family: "Gochi Hand", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.raleway {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-
-.baloo-2 {
-  font-family: "Baloo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-
+/* Estilos gerais */
 * {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 0;
-  margin: 0;
-  color: #000;
-  background-color: #ECFFFF;
-}
-body{
-  width: 100vw;
-}
-/* GERAL */
-
-/* HEADER */
-
-header {
-  width: 100vw;
-  height: 15vh;
-  display: flex;
-  font-weight: 700;
-  /* background-color: #dac8b3; */
-}
-.logo {
-  display: inline-flex;
-  align-items: center;
-  margin-left: 3vw;
-  margin-right: 7vw;
-}
-
-.head {
-  color: #000;
-  font-size: 1.5vw;
-  margin-left: 3vw;
-  display: inline-flex;
-  align-items: center;
-}
-.heade{
-  font-family: "Raleway";
-}
-
-.d-flex{
-  /* display: flex; */
-  align-items: center;
-  height: 20vh;
-}
-#input-flex {
-  width: 17vw;
-  height: 5vh;
-  outline: none;
-  border: 2px #000 solid;
-  border-radius: 10px;
-  background-color: #9ACEFF;
-  margin-left: 0.3vw;
-
-}
-
-#input-flex::placeholder{
-  /* border-radius: 10%; */
-  color: #000000;
-  font-family: "Raleway";
-  font-size: 1rem;
-  display: flex;
-  
-}
-
-
-#pesquisar{
-  margin-left: 20vw;
-  height: 5vh;
-
-}
-
-/* HEADER */
-
-/* MAIN */
-
-.containerhome {
-  background: aqua;
-  height: 45vh;
-  text-align: center;
-}
-
-  
-  /* .main {
-    background: blueviolet;
-    width: 100vw;
-    height: 70vh;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #000;
+    background-color: #ECFFFF;
+    box-sizing: border-box;
   }
-   */
+  
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    color: #000; /* Added to ensure body text is black */
+  }
+  
+  /* Estilos para telefone (até 767px) */
+  @media (max-width: 767px) {
+    .card {
+      max-width: 300px;
+      margin: 1rem auto;
+    }
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #ECFFFF;
+    padding: 1rem;
+  }
+  
+  .logo {
+    max-width: 150px;
+    margin: 0 auto 1rem;
+  }
+  
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin: 0.5rem 0;
+  }
+  
+  .head {
+    color: #000;
+    font-size: 1.5vw;
+    display: flex;
+    margin-right: 5vw;
+    height: 2vh;
+    place-items: center;
+  }
+  
+  .heade {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  /* Estilos do conteúdo principal */
+  .main {
+    padding: 2rem 1rem;
+  }
+  
   .titulo {
-    font-size: 8vw;
+    font-size: 2.5rem;
+    text-align: center;
     font-family: "Gochi Hand", cursive;
     font-weight: 100;
   }
   
-  .text {
-    margin-left: 15vw;
-    /* margin-top: 2vh; */
-  }
-  
   .homeimage {
-    color: #000;
-    display: flex;
-    width: 25vw;
-    float: right;
-    margin-right: 20vw;
+    margin: 2rem auto;
+    max-width: 100%;
+    text-align: center;
   }
   
   .home {
-    display: flex;
-    max-width: 25vw;
+    max-width: 100%;
   }
   
   .sobre {
-    font-family: "Baloo 2";
+    font-family: "Baloo 2", sans-serif;
     margin-top: 2vh;
-    font-size: 2.5vw;
-    width: 25vw;
+    font-size: 1.5rem;
+    width: 100%;
   }
   
   .p {
-    display: inline-flex;
-    font-family: "Baloo 2";
-    width: 26vw;
-    font-size: 1.3vw;
+    width: 100%;
+    font-size: 1rem;
     text-align: justify;
-    margin-top: 7vh;
+    margin-top: 1rem;
+    font-family: "Baloo 2", sans-serif;
+    color: #000; /* Updated color */
   }
-  
-  .baixo {
-    color: #000;
-  }
-  
-  /* PARTIDA */
-  
- 
   
   .partida {
     display: flex;
-    /* margin-left: 15vw; */
     margin-top: 4vh;
-    width: 25vw;
+    width: 100%;
+    justify-content: center;
   }
   
   .frase {
     background-color: #332623;
     font-family: "Baloo 2", sans-serif;
     color: #fff;
-    width: 16vw;
-    height: 8vh;
+    width: auto;
+    padding: 0.5rem 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 1.5vw;
   }
   
-  /* PARTIDA */
+  /* Estilos dos cartões de jogos */
+  .background-card {
+    width: 100%;
+    justify-self: center;
+    border-radius: 10%;
+    display: flex;
+  }
   
-  /* MAIN */
+  .card {
+    margin: 1rem 0;
+    border: 4px #C3C9FF solid;
+    border-radius: 10%;
+    outline: none;
+    height: 100%;
+    background-color: #E2E5FF;
+  }
   
-  /* PARTE COM BOOTSTRAP */
-
-
-
-/* .main {
-  background: blueviolet;
-  width: 100vw;
-  height: 70vh;
-}
- */
-.titulo {
-  font-size: 8vw;
-  font-family: "Gochi Hand", cursive;
-  font-weight: 100;
-}
-
-.text {
-  margin-left: 15vw;
-  /* margin-top: 2vh; */
-}
-
-.homeimage {
-  color: #000;
-  display: flex;
-  width: 25vw;
-  float: right;
-  margin-right: 20vw;
-}
-
-.home {
-  display: flex;
-  max-width: 25vw;
-}
-
-.sobre {
-  font-family: "Baloo 2";
-  margin-top: 2vh;
-  font-size: 2.5vw;
-  width: 25vw;
-}
-
-.p {
-  display: inline-flex;
-  font-family: "Baloo 2";
-  width: 26vw;
-  font-size: 1.3vw;
-  text-align: justify;
-  margin-top: 7vh;
-}
-
-.baixo {
-  color: #000;
-}
-
-/* PARTIDA */
-
-
-
-.partida {
-  display: flex;
-  /* margin-left: 15vw; */
-  margin-top: 4vh;
-  width: 25vw;
-}
-
-.frase {
-  background-color: #332623;
-  font-family: "Baloo 2", sans-serif;
-  color: #fff;
-  width: 16vw;
-  height: 8vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 1.5vw;
-}
-
-/* PARTIDA */
-
-/* MAIN */
-
-/* PARTE COM BOOTSTRAP */
-
-/* AA */
-
-
-
-
-
-
-
-
-
-/* CONTAINERS DE CADA JOGO */
-
-
-/* background-color: #000; */
-/* .background-card{
-width: 30vw;
-border-radius: 10%;
-
-}
-.card{
-  margin: 5vh;
-  border: 2px #C3C9FF solid;
-  border-radius: 10%;
-  outline: none;
-  height: 40vw;
-  background-color: #E2E5FF;
-}
-.card-img-top{
-  border-radius: 10%;
-  width: 20vw;
-  display: flex;
-  place-self: center;
-  margin-top: 2vh;
-}
-.card-title{
-  margin-top: 1vh;
-  display:grid;
-  text-align: center;
-}
-.card-text{
-  color: #000;
-  margin-top: 1vh;
-
-} */
-
-.background-card {
-  width: 90%;
-  justify-self: center;
-  border-radius: 10%;
-  display: flex;
-}
-
-.card {
-  margin: 5vh;
-  border: 4px #C3C9FF solid;
-  border-radius: 10%;
-  outline: none;
-  height: 100%;
-  background-color: #E2E5FF;
-}
-
-.card-img-top {
-  border-radius: 10%;
-  width: 100%;
-  display: flex;
-  place-self: center;
-  margin-top: 2vh;
-}
-
-.card-title {
+  .card-img-top {
+    border-radius: 10%;
+    width: 100%;
+    display: flex;
+    place-self: center;
+    margin-top: 2vh;
+  }
+  
+  .card-title {
     margin-top: 1vh;
     display: grid;
     text-align: center;
     text-decoration: none;
     background-color: #E2E5FF;
-
-}
-.card-title1 {
-  margin-top: 1vh;
-  display: grid;
-  text-align: center;
-  background-color: #E2E5FF;
-
-}
-.card-text {
-    color: #000;
+  }
+  
+  .card-text {
+    color: #000; /* Updated color */
     margin-top: 1vh;
     background-color: #E2E5FF;
-
-}
-.card-body{
-  height: 45vh;
-  border-radius: 0 0 21% 21%;
-  background-color: #E2E5FF;
-}
-
-
-#jogotop{
-  /* margin-top: 1vh; */
-  display: grid;
-  text-align: center;
-  align-items: center;
-  font-weight:900;
-  font-size: 4vw;
-  color: #000;
-  text-decoration: none;
-}
-.jogotopp{
-font-family: "Raleway";
-color: #000;
-text-decoration: none;
-height: 7vh;
-}
-
-.col{
-  padding: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 768px) {
-  .row-cols-md-3>* {
-
+  }
+  
+  .card-body {
+    height: auto;
+    border-radius: 0 0 21% 21%;
+    background-color: #E2E5FF;
+  }
+  
+  #jogotop {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 4vw;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  body, p, h1, h2, h3, h4, h5, h6, a, span, div {
+    color: #000;
+  }
+  
+  /* Media queries para responsividade */
+  @media (min-width: 768px) {
+    /* Estilos para tablet */
+    .logo {
+      margin: 0;
+    }
+  
+    .navbar-nav {
+      flex-direction: row;
+    }
+  
+    .nav-item {
+      margin: 0 1rem;
+    }
+  
+    .titulo {
+      font-size: 3.5rem;
+    }
+  
+    .sobre {
+      font-size: 2rem;
+    }
+  
+    .p {
+      font-size: 1.1rem;
+    }
+  
+    .row-cols-md-3 > * {
       flex: 0 0 auto;
       display: flex;
       width: 30%;
+    }
   }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.g-4, .gy-4 {
-  --bs-gutter-y: 1.5rem;
-  display: flex;
-  justify-content: center;
-}
-
-.card {
-  margin: 2vh;
-  border: 4px #C3C9FF solid;
-  border-radius: 10%;
-  outline: none;
-  height: 100%;
-  background-color: #E2E5FF;
-
-}
+  
+  @media (min-width: 1024px) {
+    /* Estilos para laptop */
+    .main {
+        display: flex
+;
+        align-items: center;
+        justify-content: center;
+        min-height: 60vh;
+    }
+  
+    .text {
+      flex: 1;
+      max-width: 75%;
+      padding-right: 2rem;
+    }
+  
+    .homeimage {
+      flex: 1;
+      max-width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .home {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .titulo {
+      font-size: 4.5rem;
+      text-align: left;
+    }
+  
+    .sobre {
+      font-size: 2.5rem;
+    }
+  
+    .p {
+      font-size: 1.2rem;
+    }
+  
+    .partida {
+      justify-content: flex-start;
+    }
+  
+    .frase {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Ajustes adicionais */
+  .g-4, .gy-4 {
+    --bs-gutter-y: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
