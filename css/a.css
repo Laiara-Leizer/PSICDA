@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 6px;
+    background-color: #ECFFFF;
+    color: #000;
+  }
+  
+  header {
+    background-color: #ECFFFF;
+  }
+  
+  /* .logo {
+    max-width: 100%;
+    height: auto;
+  } */
+  
+  .logo {
+    max-width: 120px;
+    width: 10%;
+    height: auto;
+        }
+
+  .nav-link.heade {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 1rem;
+  }
+  
+  .nav-link.heade:hover {
+    text-decoration: none;
+  }
+  
+  #input-flex {
+    width: 200px;
+    outline: none;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #9ACEFF;
+  }
+  
+  #input-flex::placeholder {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  #pesquisar {
+    height: 24px;
+  }
+  
+  .nav{
+    display: inline-block;
+    position: absolute;
+    z-index: 100;
+    top: 12px;
+    left: calc(10% + 20px);
+
+  }
+  
+  @media (min-width: 481px) {
+    .nav-link.heade {
+      font-size: 1.25rem;
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+  
+    #input-flex {
+      width: 250px;
+    }
+  
+    #pesquisar {
+      height: 30px;
+
+
+    }
+
+    .nav{
+        top: 18px;
+    }
+    
+  }
+
+
+  @media (max-width: 395px){
+
+    .nav-link.heade{
+        font-size: 0.5rem;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .nav{
+        top: 10px;
+    }
+
+  }
+  
+
+ @media (min-width:396px) and (max-width: 480px){
+      .nav{
+        font-size: 0.5rem;
+        top: 14px;
+      }  
+      .nav-link.heade{
+        margin-left: 6px;
+        margin-right: 6px;
+      }
+ }
+
+
+
+#aaaa{
+    /* vertical-align: middle; */
+    position: relative;
+    
+
+
+  }
