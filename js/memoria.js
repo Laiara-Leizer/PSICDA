@@ -22,13 +22,90 @@ function checkForMatch() {
     const isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
     isMatch ? disableCards() : unflipCards();
 }
+var pontos = 0;
+var total_fase = 2;
+
+
 
 // Função para desabilitar as cartas (caso sejam iguais)
 function disableCards() {
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
+    pontos ++;
+    document.getElementById("pontos").innerHTML = "Pontos: " + pontos;
+    if(pontos >= total_fase) {
+        setTimeout(function() {
+            alert("Acabou")
+        }, 350);
+    }
+
     resetBoard();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+score_box ++;
+document.getElementById("pontos").innerHTML = "Pontos: " + pontos;
+
+
+
+
+
+// AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+const score_boxElement = document.getElementById('score');
+let score_box = 0;
+
+
+function BoxFinalScore1() {
+
+    
+    score_box++;
+
+    score_boxElement.textContent = score_box.toString().padStart(2, '0');
+
+
+}
+
+function BoxFinalScore() {
+    const totalScore_armazenamento = parseInt(localStorage.getItem('totalScore_armazenamento') || 0) + score_box;
+    localStorage.setItem('totalScore_armazenamento', totalScore_armazenamento);
+    // window.location.href = 'final-score.html';
+}
+// AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Função para desvirar as cartas (caso não sejam iguais)
 function unflipCards() {

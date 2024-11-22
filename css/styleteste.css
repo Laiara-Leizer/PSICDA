@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.sobre {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.p {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.partida {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.frase {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.frase:hover {
+    background-color: #0056b3;
+}
+
+#jogotop {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.background-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+
+.card-title a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.card-text {
+    color: #fff;
+}
+

@@ -31,6 +31,7 @@
     z-index: 100;
     background-color: #ECFFFF;
     padding: 1rem;
+    color: #000;
   }
   
   .logo {
@@ -47,17 +48,29 @@
     margin: 0.5rem 0;
   }
   
-  .head {
+  /* .head {
     color: #000;
     font-size: 1.5vw;
     display: flex;
     margin-right: 5vw;
     height: 2vh;
     place-items: center;
-  }
+  } */
+
+  .head {
+    color: #000;
+    font-size: 2vw;
+    display: flex;
+    margin-right: 5vw;
+    place-items: center;
+    height: 0vh;
+}
+
+
   
   .heade {
     font-family: "Raleway", sans-serif;
+    color: #000;
   }
   
   /* Estilos do conteúdo principal */
@@ -178,17 +191,52 @@
   body, p, h1, h2, h3, h4, h5, h6, a, span, div {
     color: #000;
   }
+
+
+
+
+  /* Media queries para responsividade */
+  @media (max-width: 450px) {
+
+    .navbar-nav {
+      flex-direction: column;
+      align-items: end;
+      border-right-style: outset;
+  }
   
+
+  }
+  
+
+
+
+
+
   /* Media queries para responsividade */
   @media (min-width: 768px) {
     /* Estilos para tablet */
     .logo {
       margin: 0;
     }
+
+    .head {
+      color: #000;
+      font-size: 2vw;
+      display: flex
+  ;
+      height: 4vh;
+      place-items: center;
+  }
+
   
     .navbar-nav {
-      flex-direction: row;
-    }
+      flex-direction: column;
+      border-right-style: outset;
+      align-items: flex-end;
+      height: 17vw;
+      font-weight: bold;
+      color: #000;
+  }
   
     .nav-item {
       margin: 0 1rem;
@@ -212,6 +260,18 @@
       width: 30%;
     }
   }
+
+
+  @media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        height: 0vh;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+      flex-direction: row;
+      height: 12vh;
+  }
+}
   
   @media (min-width: 1024px) {
     /* Estilos para laptop */
@@ -222,6 +282,17 @@
         justify-content: center;
         min-height: 60vh;
     }
+
+
+    .head {
+      color: #000;
+      font-size: 2vw;
+      display: flex;
+      place-items: center;
+      align-self: center;
+  }
+
+
   
     .text {
       flex: 1;
@@ -229,6 +300,20 @@
       padding-right: 2rem;
     }
   
+    .navbar-nav {
+      flex-direction: column;
+      border: none;
+      align-items: flex-end;
+      height: 17vw;
+      font-weight: bold;
+      color: #000;
+  }
+  
+
+
+
+
+
     .homeimage {
       flex: 1;
       max-width: 50%;

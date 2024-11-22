@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+button {
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.container {
+    background-color: #eaf7f9;
+    border-radius: 16px;
+    padding: 20px;
+    position: relative;
+}
+
+.container::before, 
+.container::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.container::before {
+    top: -30px;
+    left: -30px;
+    background-color: #fbd1b7;
+}
+
+.container::after {
+    bottom: -30px;
+    right: -30px;
+    background-color: #c8a1f4;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da memória</title>
+    <link rel="stylesheet" href="./css/teste.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h2 class="subtitle">Pontos: <span id="score">0</span></h2>
+            <h1 class="title">Jogo da Memória</h1>
+            <h2 class="subtitle">Dificuldade: Fácil</h2>
+        </header>
+
+        <div class="back-button">
+            <a href="./index.html">VOLTAR</a>
+        </div>
+
+        <main class="game-board">
+            <div class="card" data-framework="A">
+                <div class="card-inner">
+                    <div class="card-front">?</div>
+                    <div class="card-back">A</div>
+                </div>
+            </div>
+            <div class="card" data-framework="A">
+                <div class="card-inner">
+                    <div class="card-front">?</div>
+                    <div class="card-back">A</div>
+                </div>
+            </div>
+            <!-- Repeat for B through H -->
+            <div class="card" data-framework="H">
+                <div class="card-inner">
+                    <div class="card-front">?</div>
+                    <div class="card-back">H</div>
+                </div>
+            </div>
+            <div class="card" data-framework="H">
+                <div class="card-inner">
+                    <div class="card-front">?</div>
+                    <div class="card-back">H</div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="./js/teste.js"></script>
+</body>
+</html>

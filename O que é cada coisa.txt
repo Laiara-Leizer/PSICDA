@@ -1,0 +1,35 @@
+index.html:
+
+    O arquivo principal, o qual contem a home do site.
+
+gameone.html:
+
+    O arquivo que conterá o jogo um, versão atualizada e definitiva
+
+gametwo.html:
+
+    O arquivo que conterá o jogo dois, versão atualizada e definitiva
+
+gametree.html:
+
+    O arquivo que conterá o jogo três, versão atualizada e definitiva
+
+teste01.html:
+
+    Neste arquivo, irá conter os testes do jogo 01.
+
+teste01-1.html:
+
+    Neste arquivo, irá conter as variantes do jogo 01.
+
+teste01-2.html:
+
+    Neste arquivo, irá conter as variantes do jogo 01.
+
+finalgame.html:
+
+    Conterá a versão definitiva do parabéns do usuário.
+
+
+Todos os CSS contem o mesmo nome dos seus index.
+
